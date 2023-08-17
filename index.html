@@ -7,11 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Tribute To KK - Soustin Roy</title>
     <link rel="stylesheet" href="css/style.css">
-
+    <script src="float-panel.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 </head>
 
 <body>
+    
+    <script type="text/javascript">
+        window.addEventListener('scroll', () => {
+        document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+        }, false);
+    </script>
     <!-- navbar sections starts  -->
     <header class="header">
         <div class="logo">
@@ -35,7 +42,7 @@
     <!-- home section stars  -->
 
     <section class="home" id="home">
-        <div class="content">
+        <div class="content" class="slideanim">
             <h1><b>Unforgettable Melodies:</b> <h2>Celebrating the Timeless Legacy of <b>KK</b></h2></h1>
             <p>In the world of Indian music, KK is a name that is synonymous with unforgettable melodies. With a career spanning over two decades, KK has given the industry some of its most iconic songs that continue to be loved by audiences of all ages. This article celebrates KK's timeless legacy and explores the reasons why his music continues to remain etched in our hearts and minds even today.</p>
 
@@ -44,7 +51,7 @@
 
 
         <div class="image">
-            <img src="images/KK-SKETCH.svg" alt="illustration-hero">
+            <img src="images/KK-SKETCH.svg" alt="illustration-hero" class="slideanim">
         </div>
     </section>
 
@@ -53,7 +60,7 @@
     <!-- features sectin starts  -->
 
     <section class="features" id="features">
-        <div class="heading">
+        <div class="heading" class="slideanim">
             <h1>A few works of KK</h1>
             <p>Whether it's the soulful "Tadap Tadap" from "Hum Dil De Chuke Sanam" or the foot-tapping "Tune Maari Entriyaan" from "Gunday" or "Ankhon Mein Teri" from "Om Shanti Om", KK's music has left an indelible mark on Indian music lovers.</p>
         </div>
@@ -61,12 +68,12 @@
 
         <div class="row">
             <!-- 1 Tab  -->
-            <div class="image">
+            <div class="image" class="slideanim">
                 <img src="images/KK-BW.svg" alt="illustration-features-tab-1">
             </div>
 
 
-            <div class="content">
+            <div class="content" class="slideanim">
                 <h1>Summary of KK's life</h1>
                 <p>Krishnakumar Kunnath, popularly known as KK, was a well-known indian playback singer who had contributed immensely to the indian music industry.  He started his career as a singer in 1994 and since then, he had released numerous hit songs and won several awards for his melodious voiced.  Among his notable achievements were his songs "tadap tadap" from the movie hum dil de chuke sanam, "yaaron" from the album pal, "zara sa" from the movie jannat, and "mere bina" from the movie crook.  He had also won several awards such as the filmfare award for best male playback singer for his song "tadap tadap" and the zee cine award for best male playback singer for his song "yaaron".  Furthermore, kk had performed in many international concerts and collaborations with renowned artists liked bryan adams, akon and jermaine jackson.  All in all, kk's achievements over the past 26 years had carved a niche for himself in the indian music industry and had inspired many upcoming singers</p>
                 <a href="./summary.html" class="all-btn">more info</a>
@@ -75,14 +82,14 @@
             <!-- 1 Tab  -->
 
             <!-- 2 Tab  -->
-            <div class="content">
+            <div class="content" class="slideanim">
                 <h1>Top Songs of KK</h1>
                 <p>Best songs of KK, think about it and multiple songs would start playing in your mind. Right? From “Tadap Tadap Ke is Dil Se” to “Tu Hi Haqiqat Khwaab Tu” to “Sang hu Tere” and the list goes on. KK is an amazingly versatile singer who has sung in numerous genres. Be it romantic songs, sad songs, party songs and that too in various Indian languages. Starting from late 90's and till recent years, KK best songs have been blockbuster hits.
                     The melodious yet bold voice of KK has drawn admiration from some of the best names in the industry. The most popular and superhit singer of the 90's Kumar Sanu has said on record that KK is his favorite singer. Similarly, many other singers have already praised this outstanding singer. KK hails from Karanataka but has fans all over the country and world. Here are some of the best KK songs for you. Have a look!</p>
                 <a href="./topsongs.html" class="all-btn">more info</a>
             </div>
 
-            <div class="image">
+            <div class="image" class="slideanim">
                 <img src="images/KK-CONCERT-2.jpg" alt="illustration-features-tab-2">
             </div>
 
@@ -111,7 +118,7 @@
     <!-- downloads section starts  -->
 
     <section class="download" id="download">
-        <div class="heading">
+        <div class="heading" class="slideanim">
             <h1>Hear his songs from the following Music Intermediary Service</h1>
             <p>Experience some of KK's finest pieces of work</p>
         </div>
@@ -158,7 +165,7 @@
 
     <!-- footer section starts  -->
 
-   <section class="footer" id="footer">
+   <section class="footer" id="footer" class="row slideanim">
        <div class="box-container">
            <div class="box">
                <h3>quick links</h3>

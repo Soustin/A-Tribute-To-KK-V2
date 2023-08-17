@@ -29,9 +29,9 @@
 
 section {
     padding: 2rem 9%;
-    
+/*     
     scroll-snap-align: start;
-    scroll-snap-stop: always;
+    scroll-snap-stop: always; */
     
     /* display: flex; */
     /* align-items: center; */
@@ -52,7 +52,6 @@ html{
     font-size: 62.5%;
     scroll-behavior: smooth;
     overflow-x: hidden;
-    scroll-snap-type: y mandatory;  
 }
 
 .heading{
