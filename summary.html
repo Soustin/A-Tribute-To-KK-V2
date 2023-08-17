@@ -12,6 +12,11 @@
 </head>
 
 <body>
+    <script type="text/javascript">
+        window.addEventListener('scroll', () => {
+        document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+        }, false);
+    </script>
     <!-- navbar sections starts  -->
     <header class="header">
         <div class="logo">
@@ -160,15 +165,15 @@
 
                 <h3>JioSaavn</h3>
                 <!-- <p>Minimum Version 46</p> -->
-                <a href="https://www.jiosaavn.com/featured/k-k/lWKv8XDexxRieSJqt9HmOQ__" target="_blank" class="all-btn">open</a>
+                <a href="https://www.jiosaavn.com/featured/k-k/lWKv8XDexxRieSJqt9HmOQ__" class="all-btn">open</a>
             </div>
 
             <div class="box">
-                <img src="images/gaana.svg" target="_blank" alt="logo-opera">
+                <img src="images/gaana.svg" alt="logo-opera">
 
                 <h3>Gaana</h3>
                 <!-- <p>Minimum Version 46</p> -->
-                <a href="https://gaana.com/playlist/inhouse-dj-best-of-kk" target="_blank" class="all-btn">open</a>
+                <a href="https://gaana.com/playlist/inhouse-dj-best-of-kk" class="all-btn">open</a>
             </div>
         </div>
     </section>
