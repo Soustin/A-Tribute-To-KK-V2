@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <titleTop Songs Of KK - A Tribute To KK - Soustin Roy</title>
+    <title>Top Songs Of KK - A Tribute To KK - Soustin Roy</title>
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -12,20 +12,31 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  border-radius: 25px;
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 5px solid #ffffff;
   text-align: left;
   padding: 8px;
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
+tr:nth-child(odd) {
+  background-color: #da9b25;
 }
+
+tr:nth-child(even) {
+  background-color: #AEBC41;
+}
+
 </style>
 </head>
 <body>
+    <script type="text/javascript">
+        window.addEventListener('scroll', () => {
+        document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+        }, false);
+    </script>
     <header class="header">
         <div class="logo">
             <img src="images/WEBSITE-LOGO-KK.svg" alt="logo-bookmark">
@@ -42,6 +53,7 @@ tr:nth-child(even) {
   
         <div class="fas fa-bars" id="menu-btn"></div>
     </header>
+    <section>
     <br>
     <br>
     <br>
@@ -51,8 +63,8 @@ tr:nth-child(even) {
     <div class="heading">
         <h1>HTML Table</h1>
     </div>
-
-    <table>
+    <center>
+    <table style="width:95%">
     <tr>
         <th>Song</th>
         <th>Movie</th>
@@ -129,6 +141,8 @@ tr:nth-child(even) {
         <td>2008</td>
     </tr>
     </table>
+    </center>
+    </section>
 
     <section class="download" id="download">
         <div class="heading">
