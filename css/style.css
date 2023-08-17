@@ -420,7 +420,8 @@ td{
 .footer .box-container .box a i{
     padding-right: .5rem;
     color:var(--Soft-Green);
-    /* border-color: var(--text-shadow); */
+    /* border-color: var(--text-shadow);
+    border: 20px; */
     /* box-shadow: 0rem 0.5rem 1.5rem rgba(0, 0, 0, .25); */
     /* box-shadow: .2em var(--text-shadow); */
     /* text-shadow: ; */
@@ -453,3 +454,28 @@ td{
 
 
 /* footer section ends */
+
+/* .slideanim {
+    visibility:hidden;
+    visibility:visible\9;For old IE browsers IE6-8 */
+/* }
+.slideanim.slide {                  
+    visibility: visible;                  
+    animation: slide 1s;
+}
+.slideanim::after { */
+    /* useful when its child elements are float:left; */
+    /* content: "";
+    display: table;
+    clear: both;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+} */
